@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "standard"
+    // "pretter-eslist"
+  ],
+  "root": true,
+  "globals": {
+    "Tiny": true
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "spaced-comment": 0,
+    "space-before-function-paren": 0,
+    "comma-dangle": [0, "always-multiline"],
+    "quotes": [0, "double"]
+  }
+}
